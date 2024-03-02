@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'montserrat';
+} 
+html, body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    /* background-color: aquamarine; */
+}
+.nav1{
+    height: 50px;
+    width: 100%;
+    padding: 30px 30px;
+    /* background-color: burlywood; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav1 .logo{
+    display: flex;
+    /* align-items: center; */
+}
+.logo .circle{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: rgb(20, 20, 20);
+}
+.nav1 .items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+.items h3{
+    font-size: 12px;
+}
+.items h3 span{
+    color: rgb(146, 144, 144);
+    padding-left: 10px;
+}
+.items ul{
+    font-size: 12px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.nav2{
+    height: 50px;
+    width: 100%;
+    /* background-color: burlywood; */
+    padding: 30px 30px;
+    
+}
+.nav2 ul{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    list-style-type: none;
+    text-transform: uppercase;
+}
+.body{
+    height: calc(100% - 120px);
+    width: 100%;
+    /* background-color: coral; */
+}
+.body1{
+    height: 50%;
+    width: 100%;
+    /* background-color: coral; */
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    overflow-x: auto;
+}
+.body1::-webkit-scrollbar{
+    background-color: transparent;
+    height: 7px;
+}
+.body1::-webkit-scrollbar-thumb{
+    background-color: rgb(0, 0, 0);
+}
+.body1 .text{
+    height: 100%;
+    width: 50%;
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+.text h1{
+    font-size: 80px;
+    font-weight: 400
+}
+.text h3{
+    font-size: 15px;
+    font-weight: 800;
+}
+.text h3 span{
+    font-weight: 500;
+    padding-left: 30px;
+}
+.body2{
+    height: 50%;
+    width: 100%;
+    /* background-color: chartreuse; */
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    overflow-x: auto;
+}
+.body2::-webkit-scrollbar{
+    background-color: transparent;
+    height: 7px;
+}
+.body2::-webkit-scrollbar-thumb{
+    background-color: rgb(0, 0, 0);
+}
+.body2 .image{
+    flex-shrink: 0;
+    height: 100%;
+    width: 50%;
+}
+.body2 .image img{
+    height: 98%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
